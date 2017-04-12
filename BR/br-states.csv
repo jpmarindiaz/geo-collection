@@ -1,0 +1,28 @@
+id,name, alternativeNames,region
+AC,ACRE,Acre,Norte
+AL,ALAGOAS,Alagoas,Nordeste
+AM,AMAZONAS,Amazonas,Norte
+AP,AMAPA,Amapá,Norte
+BA,BAHIA,Bahia,Nordeste
+CE,CEARA,Ceará,Nordeste
+DF,DISTRITO FEDERAL,Distrito Federal,Centro-Oeste
+ES,ESPIRITO SANTO,Espírito Santo,Sudeste
+GO,GOIAS,Goiás,Centro-Oeste
+MA,MARANHAO,Maranhão,Nordeste
+MG,MINAS GERAIS,Minas Gerais,Sudeste
+MS,MATO GROSSO DO SUL,Mato Grosso do Sul,Centro-Oeste
+MT,MATO GROSSO,Mato Grosso,Centro-Oeste
+PA,PARA,Pará,Norte
+PB,PARAIBA,Paraíba,Nordeste
+PE,PERNAMBUCO,Pernambuco,Nordeste
+PI,PIAUI,Piauí,Nordeste
+PR,PARANA,Paraná,Sul
+RJ,RIO DE JANEIRO,Rio de Janeiro,Sudeste
+RN,RIO GRANDE DO NORTE,Rio Grande do Norte,Nordeste
+RO,RONDONIA,Rondônia,Norte
+RR,RORAIMA,Roraima,Norte
+RS,RIO GRANDE DO SUL,Rio Grande do Sul,Sul
+SC,SANTA CATARINA,Santa Catarina,Sul
+SE,SERGIPE,Sergipe,Nordeste
+SP,SAO PAULO,São Paulo,Sudeste
+TO,TOCANTINS,Tocantins,Norte
