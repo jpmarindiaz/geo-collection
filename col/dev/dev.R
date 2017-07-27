@@ -27,6 +27,6 @@ x <- yaml::yaml.load_file(system.file("dmaps/col.yaml",package = "dmaps"))$col_m
 reg <- x$regions
 
 rl <- reg %>% map(function(x) data_frame(id = x$id)) %>% bind_rows(,.id = "region")
-write_csv(rl, "col-adm2-municipalities-regions.csv")
+write_csv(rl, "clean/col-adm2-municipalities-regions.csv")
 
 
