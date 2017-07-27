@@ -32,21 +32,21 @@ z <- z %>%
   select(-var, id = code, altname) %>% distinct()
 write_csv(z, "clean/world-countries-altnames.csv")
 
-d_regions <- d %>% mutate(code = iso_a3) %>%
+d_regions <- d %>% mutate(id = iso_a3) %>%
   select(code, continent, region_un, subregion, region_wb)
 d_reg_continents <- d_regions %>%
-  select(region = continent, code) %>%
+  select(region = continent, id) %>%
   arrange(region)
 d_reg_un <- d_regions %>%
-  select(region = region_un, code) %>%
+  select(region = region_un, id) %>%
   mutate(region = paste("UN", region)) %>%
   arrange(region)
 d_reg_un_sub <- d_regions %>%
-  select(region = subregion, code) %>%
+  select(region = subregion, id) %>%
   mutate(region = paste("UN Subregion", region)) %>%
   arrange(region)
 d_reg_wb <- d_regions %>%
-  select(region = region_wb, code) %>%
+  select(region = region_wb, id) %>%
   mutate(region = paste("WB", region)) %>%
   arrange(region)
 d_regs <- bind_rows(d_reg_continents,d_reg_un,d_reg_un_sub,d_reg_wb)
