@@ -1,0 +1,965 @@
+region,code
+Africa,AGO
+Africa,BDI
+Africa,BEN
+Africa,BFA
+Africa,BWA
+Africa,CAF
+Africa,CIV
+Africa,CMR
+Africa,COD
+Africa,COG
+Africa,COM
+Africa,CPV
+Africa,DJI
+Africa,DZA
+Africa,EGY
+Africa,ERI
+Africa,ETH
+Africa,GAB
+Africa,GHA
+Africa,GIN
+Africa,GMB
+Africa,GNB
+Africa,GNQ
+Africa,KEN
+Africa,LBR
+Africa,LBY
+Africa,LSO
+Africa,MAR
+Africa,MDG
+Africa,MLI
+Africa,MOZ
+Africa,MRT
+Africa,MWI
+Africa,NAM
+Africa,NER
+Africa,NGA
+Africa,RWA
+Africa,ESH
+Africa,SDN
+Africa,SSD
+Africa,SEN
+Africa,SLE
+Africa,-99
+Africa,SOM
+Africa,STP
+Africa,SWZ
+Africa,TCD
+Africa,TGO
+Africa,TUN
+Africa,TZA
+Africa,UGA
+Africa,ZAF
+Africa,ZMB
+Africa,ZWE
+Antarctica,ATA
+Asia,AFG
+Asia,ARE
+Asia,ARM
+Asia,AZE
+Asia,BGD
+Asia,BHR
+Asia,BRN
+Asia,BTN
+Asia,CHN
+Asia,-99
+Asia,CYP
+Asia,GEO
+Asia,HKG
+Asia,IDN
+Asia,IND
+Asia,-99
+Asia,IRN
+Asia,IRQ
+Asia,ISR
+Asia,JOR
+Asia,JPN
+Asia,-99
+Asia,KAZ
+Asia,KGZ
+Asia,KHM
+Asia,KOR
+Asia,KWT
+Asia,LAO
+Asia,LBN
+Asia,LKA
+Asia,MAC
+Asia,MMR
+Asia,MNG
+Asia,MYS
+Asia,NPL
+Asia,OMN
+Asia,PAK
+Asia,PHL
+Asia,PRK
+Asia,PSE
+Asia,QAT
+Asia,SAU
+Asia,SGP
+Asia,SYR
+Asia,THA
+Asia,TJK
+Asia,TKM
+Asia,TLS
+Asia,TUR
+Asia,TWN
+Asia,UZB
+Asia,VNM
+Asia,YEM
+Europe,ALB
+Europe,ALA
+Europe,AND
+Europe,AUT
+Europe,BEL
+Europe,BGR
+Europe,BIH
+Europe,BLR
+Europe,CHE
+Europe,CZE
+Europe,DEU
+Europe,DNK
+Europe,ESP
+Europe,EST
+Europe,FIN
+Europe,FRA
+Europe,FRO
+Europe,GBR
+Europe,GGY
+Europe,GRC
+Europe,HRV
+Europe,HUN
+Europe,IMN
+Europe,IRL
+Europe,ISL
+Europe,ITA
+Europe,JEY
+Europe,-99
+Europe,LIE
+Europe,LTU
+Europe,LUX
+Europe,LVA
+Europe,MCO
+Europe,MDA
+Europe,MKD
+Europe,MLT
+Europe,MNE
+Europe,NLD
+Europe,NOR
+Europe,POL
+Europe,PRT
+Europe,ROU
+Europe,RUS
+Europe,SMR
+Europe,SRB
+Europe,SVK
+Europe,SVN
+Europe,SWE
+Europe,UKR
+Europe,VAT
+North America,ABW
+North America,AIA
+North America,ATG
+North America,BHS
+North America,BLM
+North America,BLZ
+North America,BMU
+North America,BRB
+North America,CAN
+North America,CRI
+North America,CUB
+North America,CUW
+North America,CYM
+North America,DMA
+North America,DOM
+North America,GRD
+North America,GRL
+North America,GTM
+North America,HND
+North America,HTI
+North America,JAM
+North America,KNA
+North America,LCA
+North America,MAF
+North America,MEX
+North America,MSR
+North America,NIC
+North America,PAN
+North America,PRI
+North America,SLV
+North America,SPM
+North America,SXM
+North America,TCA
+North America,TTO
+North America,USA
+North America,VCT
+North America,VGB
+North America,VIR
+Oceania,ASM
+Oceania,-99
+Oceania,AUS
+Oceania,COK
+Oceania,FJI
+Oceania,FSM
+Oceania,GUM
+Oceania,KIR
+Oceania,MHL
+Oceania,MNP
+Oceania,NCL
+Oceania,NFK
+Oceania,NIU
+Oceania,NRU
+Oceania,NZL
+Oceania,PCN
+Oceania,PLW
+Oceania,PNG
+Oceania,PYF
+Oceania,SLB
+Oceania,TON
+Oceania,VUT
+Oceania,WLF
+Oceania,WSM
+Seven seas (open ocean),ATF
+Seven seas (open ocean),HMD
+Seven seas (open ocean),IOT
+Seven seas (open ocean),MDV
+Seven seas (open ocean),MUS
+Seven seas (open ocean),SGS
+Seven seas (open ocean),SHN
+Seven seas (open ocean),SYC
+South America,ARG
+South America,BOL
+South America,BRA
+South America,CHL
+South America,COL
+South America,ECU
+South America,FLK
+South America,GUY
+South America,PER
+South America,PRY
+South America,SUR
+South America,URY
+South America,VEN
+UN Africa,AGO
+UN Africa,BDI
+UN Africa,BEN
+UN Africa,BFA
+UN Africa,BWA
+UN Africa,CAF
+UN Africa,CIV
+UN Africa,CMR
+UN Africa,COD
+UN Africa,COG
+UN Africa,COM
+UN Africa,CPV
+UN Africa,DJI
+UN Africa,DZA
+UN Africa,EGY
+UN Africa,ERI
+UN Africa,ETH
+UN Africa,GAB
+UN Africa,GHA
+UN Africa,GIN
+UN Africa,GMB
+UN Africa,GNB
+UN Africa,GNQ
+UN Africa,KEN
+UN Africa,LBR
+UN Africa,LBY
+UN Africa,LSO
+UN Africa,MAR
+UN Africa,MDG
+UN Africa,MLI
+UN Africa,MOZ
+UN Africa,MRT
+UN Africa,MUS
+UN Africa,MWI
+UN Africa,NAM
+UN Africa,NER
+UN Africa,NGA
+UN Africa,RWA
+UN Africa,ESH
+UN Africa,SDN
+UN Africa,SSD
+UN Africa,SEN
+UN Africa,SHN
+UN Africa,SLE
+UN Africa,-99
+UN Africa,SOM
+UN Africa,STP
+UN Africa,SWZ
+UN Africa,SYC
+UN Africa,TCD
+UN Africa,TGO
+UN Africa,TUN
+UN Africa,TZA
+UN Africa,UGA
+UN Africa,ZAF
+UN Africa,ZMB
+UN Africa,ZWE
+UN Americas,ABW
+UN Americas,AIA
+UN Americas,ARG
+UN Americas,ATG
+UN Americas,BHS
+UN Americas,BLM
+UN Americas,BLZ
+UN Americas,BMU
+UN Americas,BOL
+UN Americas,BRA
+UN Americas,BRB
+UN Americas,CAN
+UN Americas,CHL
+UN Americas,COL
+UN Americas,CRI
+UN Americas,CUB
+UN Americas,CUW
+UN Americas,CYM
+UN Americas,DMA
+UN Americas,DOM
+UN Americas,ECU
+UN Americas,FLK
+UN Americas,GRD
+UN Americas,GRL
+UN Americas,GTM
+UN Americas,GUY
+UN Americas,HND
+UN Americas,HTI
+UN Americas,JAM
+UN Americas,KNA
+UN Americas,LCA
+UN Americas,MAF
+UN Americas,MEX
+UN Americas,MSR
+UN Americas,NIC
+UN Americas,PAN
+UN Americas,PER
+UN Americas,PRI
+UN Americas,PRY
+UN Americas,SLV
+UN Americas,SPM
+UN Americas,SUR
+UN Americas,SXM
+UN Americas,TCA
+UN Americas,TTO
+UN Americas,URY
+UN Americas,USA
+UN Americas,VCT
+UN Americas,VEN
+UN Americas,VGB
+UN Americas,VIR
+UN Antarctica,ATA
+UN Asia,AFG
+UN Asia,ARE
+UN Asia,ARM
+UN Asia,AZE
+UN Asia,BGD
+UN Asia,BHR
+UN Asia,BRN
+UN Asia,BTN
+UN Asia,CHN
+UN Asia,-99
+UN Asia,CYP
+UN Asia,GEO
+UN Asia,HKG
+UN Asia,IDN
+UN Asia,IND
+UN Asia,IRN
+UN Asia,IRQ
+UN Asia,ISR
+UN Asia,JOR
+UN Asia,JPN
+UN Asia,-99
+UN Asia,KAZ
+UN Asia,KGZ
+UN Asia,KHM
+UN Asia,KOR
+UN Asia,KWT
+UN Asia,LAO
+UN Asia,LBN
+UN Asia,LKA
+UN Asia,MAC
+UN Asia,MDV
+UN Asia,MMR
+UN Asia,MNG
+UN Asia,MYS
+UN Asia,NPL
+UN Asia,OMN
+UN Asia,PAK
+UN Asia,PHL
+UN Asia,PRK
+UN Asia,PSE
+UN Asia,QAT
+UN Asia,SAU
+UN Asia,SGP
+UN Asia,SYR
+UN Asia,THA
+UN Asia,TJK
+UN Asia,TKM
+UN Asia,TLS
+UN Asia,TUR
+UN Asia,TWN
+UN Asia,UZB
+UN Asia,VNM
+UN Asia,YEM
+UN Europe,ALB
+UN Europe,ALA
+UN Europe,AND
+UN Europe,AUT
+UN Europe,BEL
+UN Europe,BGR
+UN Europe,BIH
+UN Europe,BLR
+UN Europe,CHE
+UN Europe,CZE
+UN Europe,DEU
+UN Europe,DNK
+UN Europe,ESP
+UN Europe,EST
+UN Europe,FIN
+UN Europe,FRA
+UN Europe,FRO
+UN Europe,GBR
+UN Europe,GGY
+UN Europe,GRC
+UN Europe,HRV
+UN Europe,HUN
+UN Europe,IMN
+UN Europe,IRL
+UN Europe,ISL
+UN Europe,ITA
+UN Europe,JEY
+UN Europe,-99
+UN Europe,LIE
+UN Europe,LTU
+UN Europe,LUX
+UN Europe,LVA
+UN Europe,MCO
+UN Europe,MDA
+UN Europe,MKD
+UN Europe,MLT
+UN Europe,MNE
+UN Europe,NLD
+UN Europe,NOR
+UN Europe,POL
+UN Europe,PRT
+UN Europe,ROU
+UN Europe,RUS
+UN Europe,SMR
+UN Europe,SRB
+UN Europe,SVK
+UN Europe,SVN
+UN Europe,SWE
+UN Europe,UKR
+UN Europe,VAT
+UN Oceania,ASM
+UN Oceania,-99
+UN Oceania,AUS
+UN Oceania,COK
+UN Oceania,FJI
+UN Oceania,FSM
+UN Oceania,GUM
+UN Oceania,KIR
+UN Oceania,MHL
+UN Oceania,MNP
+UN Oceania,NCL
+UN Oceania,NFK
+UN Oceania,NIU
+UN Oceania,NRU
+UN Oceania,NZL
+UN Oceania,PCN
+UN Oceania,PLW
+UN Oceania,PNG
+UN Oceania,PYF
+UN Oceania,SLB
+UN Oceania,TON
+UN Oceania,VUT
+UN Oceania,WLF
+UN Oceania,WSM
+UN Seven seas (open ocean),ATF
+UN Seven seas (open ocean),HMD
+UN Seven seas (open ocean),-99
+UN Seven seas (open ocean),IOT
+UN Seven seas (open ocean),SGS
+UN Subregion Antarctica,ATA
+UN Subregion Australia and New Zealand,-99
+UN Subregion Australia and New Zealand,AUS
+UN Subregion Australia and New Zealand,NFK
+UN Subregion Australia and New Zealand,NZL
+UN Subregion Caribbean,ABW
+UN Subregion Caribbean,AIA
+UN Subregion Caribbean,ATG
+UN Subregion Caribbean,BHS
+UN Subregion Caribbean,BLM
+UN Subregion Caribbean,BRB
+UN Subregion Caribbean,CUB
+UN Subregion Caribbean,CUW
+UN Subregion Caribbean,CYM
+UN Subregion Caribbean,DMA
+UN Subregion Caribbean,DOM
+UN Subregion Caribbean,GRD
+UN Subregion Caribbean,HTI
+UN Subregion Caribbean,JAM
+UN Subregion Caribbean,KNA
+UN Subregion Caribbean,LCA
+UN Subregion Caribbean,MAF
+UN Subregion Caribbean,MSR
+UN Subregion Caribbean,PRI
+UN Subregion Caribbean,SXM
+UN Subregion Caribbean,TCA
+UN Subregion Caribbean,TTO
+UN Subregion Caribbean,VCT
+UN Subregion Caribbean,VGB
+UN Subregion Caribbean,VIR
+UN Subregion Central America,BLZ
+UN Subregion Central America,CRI
+UN Subregion Central America,GTM
+UN Subregion Central America,HND
+UN Subregion Central America,MEX
+UN Subregion Central America,NIC
+UN Subregion Central America,PAN
+UN Subregion Central America,SLV
+UN Subregion Central Asia,KAZ
+UN Subregion Central Asia,KGZ
+UN Subregion Central Asia,TJK
+UN Subregion Central Asia,TKM
+UN Subregion Central Asia,UZB
+UN Subregion Eastern Africa,BDI
+UN Subregion Eastern Africa,COM
+UN Subregion Eastern Africa,DJI
+UN Subregion Eastern Africa,ERI
+UN Subregion Eastern Africa,ETH
+UN Subregion Eastern Africa,KEN
+UN Subregion Eastern Africa,MDG
+UN Subregion Eastern Africa,MOZ
+UN Subregion Eastern Africa,MUS
+UN Subregion Eastern Africa,MWI
+UN Subregion Eastern Africa,RWA
+UN Subregion Eastern Africa,SSD
+UN Subregion Eastern Africa,-99
+UN Subregion Eastern Africa,SOM
+UN Subregion Eastern Africa,SYC
+UN Subregion Eastern Africa,TZA
+UN Subregion Eastern Africa,UGA
+UN Subregion Eastern Africa,ZMB
+UN Subregion Eastern Africa,ZWE
+UN Subregion Eastern Asia,CHN
+UN Subregion Eastern Asia,HKG
+UN Subregion Eastern Asia,JPN
+UN Subregion Eastern Asia,KOR
+UN Subregion Eastern Asia,MAC
+UN Subregion Eastern Asia,MNG
+UN Subregion Eastern Asia,PRK
+UN Subregion Eastern Asia,TWN
+UN Subregion Eastern Europe,BGR
+UN Subregion Eastern Europe,BLR
+UN Subregion Eastern Europe,CZE
+UN Subregion Eastern Europe,HUN
+UN Subregion Eastern Europe,MDA
+UN Subregion Eastern Europe,POL
+UN Subregion Eastern Europe,ROU
+UN Subregion Eastern Europe,RUS
+UN Subregion Eastern Europe,SVK
+UN Subregion Eastern Europe,UKR
+UN Subregion Melanesia,FJI
+UN Subregion Melanesia,NCL
+UN Subregion Melanesia,PNG
+UN Subregion Melanesia,SLB
+UN Subregion Melanesia,VUT
+UN Subregion Micronesia,FSM
+UN Subregion Micronesia,GUM
+UN Subregion Micronesia,KIR
+UN Subregion Micronesia,MHL
+UN Subregion Micronesia,MNP
+UN Subregion Micronesia,NRU
+UN Subregion Micronesia,PLW
+UN Subregion Middle Africa,AGO
+UN Subregion Middle Africa,CAF
+UN Subregion Middle Africa,CMR
+UN Subregion Middle Africa,COD
+UN Subregion Middle Africa,COG
+UN Subregion Middle Africa,GAB
+UN Subregion Middle Africa,GNQ
+UN Subregion Middle Africa,STP
+UN Subregion Middle Africa,TCD
+UN Subregion Northern Africa,DZA
+UN Subregion Northern Africa,EGY
+UN Subregion Northern Africa,LBY
+UN Subregion Northern Africa,MAR
+UN Subregion Northern Africa,ESH
+UN Subregion Northern Africa,SDN
+UN Subregion Northern Africa,TUN
+UN Subregion Northern America,BMU
+UN Subregion Northern America,CAN
+UN Subregion Northern America,GRL
+UN Subregion Northern America,SPM
+UN Subregion Northern America,USA
+UN Subregion Northern Europe,ALA
+UN Subregion Northern Europe,DNK
+UN Subregion Northern Europe,EST
+UN Subregion Northern Europe,FIN
+UN Subregion Northern Europe,FRO
+UN Subregion Northern Europe,GBR
+UN Subregion Northern Europe,GGY
+UN Subregion Northern Europe,IMN
+UN Subregion Northern Europe,IRL
+UN Subregion Northern Europe,ISL
+UN Subregion Northern Europe,JEY
+UN Subregion Northern Europe,LTU
+UN Subregion Northern Europe,LVA
+UN Subregion Northern Europe,NOR
+UN Subregion Northern Europe,SWE
+UN Subregion Polynesia,ASM
+UN Subregion Polynesia,COK
+UN Subregion Polynesia,NIU
+UN Subregion Polynesia,PCN
+UN Subregion Polynesia,PYF
+UN Subregion Polynesia,TON
+UN Subregion Polynesia,WLF
+UN Subregion Polynesia,WSM
+UN Subregion Seven seas (open ocean),ATF
+UN Subregion Seven seas (open ocean),HMD
+UN Subregion Seven seas (open ocean),-99
+UN Subregion Seven seas (open ocean),IOT
+UN Subregion Seven seas (open ocean),SGS
+UN Subregion South America,ARG
+UN Subregion South America,BOL
+UN Subregion South America,BRA
+UN Subregion South America,CHL
+UN Subregion South America,COL
+UN Subregion South America,ECU
+UN Subregion South America,FLK
+UN Subregion South America,GUY
+UN Subregion South America,PER
+UN Subregion South America,PRY
+UN Subregion South America,SUR
+UN Subregion South America,URY
+UN Subregion South America,VEN
+UN Subregion South-Eastern Asia,BRN
+UN Subregion South-Eastern Asia,IDN
+UN Subregion South-Eastern Asia,KHM
+UN Subregion South-Eastern Asia,LAO
+UN Subregion South-Eastern Asia,MMR
+UN Subregion South-Eastern Asia,MYS
+UN Subregion South-Eastern Asia,PHL
+UN Subregion South-Eastern Asia,SGP
+UN Subregion South-Eastern Asia,THA
+UN Subregion South-Eastern Asia,TLS
+UN Subregion South-Eastern Asia,VNM
+UN Subregion Southern Africa,BWA
+UN Subregion Southern Africa,LSO
+UN Subregion Southern Africa,NAM
+UN Subregion Southern Africa,SWZ
+UN Subregion Southern Africa,ZAF
+UN Subregion Southern Asia,AFG
+UN Subregion Southern Asia,BGD
+UN Subregion Southern Asia,BTN
+UN Subregion Southern Asia,IND
+UN Subregion Southern Asia,IRN
+UN Subregion Southern Asia,-99
+UN Subregion Southern Asia,LKA
+UN Subregion Southern Asia,MDV
+UN Subregion Southern Asia,NPL
+UN Subregion Southern Asia,PAK
+UN Subregion Southern Europe,ALB
+UN Subregion Southern Europe,AND
+UN Subregion Southern Europe,BIH
+UN Subregion Southern Europe,ESP
+UN Subregion Southern Europe,GRC
+UN Subregion Southern Europe,HRV
+UN Subregion Southern Europe,ITA
+UN Subregion Southern Europe,-99
+UN Subregion Southern Europe,MKD
+UN Subregion Southern Europe,MLT
+UN Subregion Southern Europe,MNE
+UN Subregion Southern Europe,PRT
+UN Subregion Southern Europe,SMR
+UN Subregion Southern Europe,SRB
+UN Subregion Southern Europe,SVN
+UN Subregion Southern Europe,VAT
+UN Subregion Western Africa,BEN
+UN Subregion Western Africa,BFA
+UN Subregion Western Africa,CIV
+UN Subregion Western Africa,CPV
+UN Subregion Western Africa,GHA
+UN Subregion Western Africa,GIN
+UN Subregion Western Africa,GMB
+UN Subregion Western Africa,GNB
+UN Subregion Western Africa,LBR
+UN Subregion Western Africa,MLI
+UN Subregion Western Africa,MRT
+UN Subregion Western Africa,NER
+UN Subregion Western Africa,NGA
+UN Subregion Western Africa,SEN
+UN Subregion Western Africa,SHN
+UN Subregion Western Africa,SLE
+UN Subregion Western Africa,TGO
+UN Subregion Western Asia,ARE
+UN Subregion Western Asia,ARM
+UN Subregion Western Asia,AZE
+UN Subregion Western Asia,BHR
+UN Subregion Western Asia,-99
+UN Subregion Western Asia,CYP
+UN Subregion Western Asia,GEO
+UN Subregion Western Asia,IRQ
+UN Subregion Western Asia,ISR
+UN Subregion Western Asia,JOR
+UN Subregion Western Asia,KWT
+UN Subregion Western Asia,LBN
+UN Subregion Western Asia,OMN
+UN Subregion Western Asia,PSE
+UN Subregion Western Asia,QAT
+UN Subregion Western Asia,SAU
+UN Subregion Western Asia,SYR
+UN Subregion Western Asia,TUR
+UN Subregion Western Asia,YEM
+UN Subregion Western Europe,AUT
+UN Subregion Western Europe,BEL
+UN Subregion Western Europe,CHE
+UN Subregion Western Europe,DEU
+UN Subregion Western Europe,FRA
+UN Subregion Western Europe,LIE
+UN Subregion Western Europe,LUX
+UN Subregion Western Europe,MCO
+UN Subregion Western Europe,NLD
+WB Antarctica,ATA
+WB Antarctica,SGS
+WB East Asia & Pacific,ASM
+WB East Asia & Pacific,-99
+WB East Asia & Pacific,AUS
+WB East Asia & Pacific,BRN
+WB East Asia & Pacific,CHN
+WB East Asia & Pacific,COK
+WB East Asia & Pacific,FJI
+WB East Asia & Pacific,FSM
+WB East Asia & Pacific,GUM
+WB East Asia & Pacific,HKG
+WB East Asia & Pacific,IDN
+WB East Asia & Pacific,-99
+WB East Asia & Pacific,JPN
+WB East Asia & Pacific,KHM
+WB East Asia & Pacific,KIR
+WB East Asia & Pacific,KOR
+WB East Asia & Pacific,LAO
+WB East Asia & Pacific,MAC
+WB East Asia & Pacific,MHL
+WB East Asia & Pacific,MMR
+WB East Asia & Pacific,MNG
+WB East Asia & Pacific,MNP
+WB East Asia & Pacific,MYS
+WB East Asia & Pacific,NCL
+WB East Asia & Pacific,NFK
+WB East Asia & Pacific,NIU
+WB East Asia & Pacific,NRU
+WB East Asia & Pacific,NZL
+WB East Asia & Pacific,PCN
+WB East Asia & Pacific,PHL
+WB East Asia & Pacific,PLW
+WB East Asia & Pacific,PNG
+WB East Asia & Pacific,PRK
+WB East Asia & Pacific,PYF
+WB East Asia & Pacific,SGP
+WB East Asia & Pacific,SLB
+WB East Asia & Pacific,THA
+WB East Asia & Pacific,TLS
+WB East Asia & Pacific,TON
+WB East Asia & Pacific,TWN
+WB East Asia & Pacific,VNM
+WB East Asia & Pacific,VUT
+WB East Asia & Pacific,WLF
+WB East Asia & Pacific,WSM
+WB Europe & Central Asia,ALB
+WB Europe & Central Asia,ALA
+WB Europe & Central Asia,AND
+WB Europe & Central Asia,ARM
+WB Europe & Central Asia,AUT
+WB Europe & Central Asia,AZE
+WB Europe & Central Asia,BEL
+WB Europe & Central Asia,BGR
+WB Europe & Central Asia,BIH
+WB Europe & Central Asia,BLR
+WB Europe & Central Asia,CHE
+WB Europe & Central Asia,-99
+WB Europe & Central Asia,CYP
+WB Europe & Central Asia,CZE
+WB Europe & Central Asia,DEU
+WB Europe & Central Asia,DNK
+WB Europe & Central Asia,ESP
+WB Europe & Central Asia,EST
+WB Europe & Central Asia,FIN
+WB Europe & Central Asia,FRA
+WB Europe & Central Asia,FRO
+WB Europe & Central Asia,GBR
+WB Europe & Central Asia,GEO
+WB Europe & Central Asia,GGY
+WB Europe & Central Asia,GRC
+WB Europe & Central Asia,GRL
+WB Europe & Central Asia,HRV
+WB Europe & Central Asia,HUN
+WB Europe & Central Asia,IMN
+WB Europe & Central Asia,IRL
+WB Europe & Central Asia,ISL
+WB Europe & Central Asia,ITA
+WB Europe & Central Asia,JEY
+WB Europe & Central Asia,KAZ
+WB Europe & Central Asia,KGZ
+WB Europe & Central Asia,-99
+WB Europe & Central Asia,LIE
+WB Europe & Central Asia,LTU
+WB Europe & Central Asia,LUX
+WB Europe & Central Asia,LVA
+WB Europe & Central Asia,MCO
+WB Europe & Central Asia,MDA
+WB Europe & Central Asia,MKD
+WB Europe & Central Asia,MNE
+WB Europe & Central Asia,NLD
+WB Europe & Central Asia,NOR
+WB Europe & Central Asia,POL
+WB Europe & Central Asia,PRT
+WB Europe & Central Asia,ROU
+WB Europe & Central Asia,RUS
+WB Europe & Central Asia,SMR
+WB Europe & Central Asia,SRB
+WB Europe & Central Asia,SVK
+WB Europe & Central Asia,SVN
+WB Europe & Central Asia,SWE
+WB Europe & Central Asia,TJK
+WB Europe & Central Asia,TKM
+WB Europe & Central Asia,TUR
+WB Europe & Central Asia,UKR
+WB Europe & Central Asia,UZB
+WB Europe & Central Asia,VAT
+WB Latin America & Caribbean,ABW
+WB Latin America & Caribbean,AIA
+WB Latin America & Caribbean,ARG
+WB Latin America & Caribbean,ATG
+WB Latin America & Caribbean,BHS
+WB Latin America & Caribbean,BLM
+WB Latin America & Caribbean,BLZ
+WB Latin America & Caribbean,BOL
+WB Latin America & Caribbean,BRA
+WB Latin America & Caribbean,BRB
+WB Latin America & Caribbean,CHL
+WB Latin America & Caribbean,COL
+WB Latin America & Caribbean,CRI
+WB Latin America & Caribbean,CUB
+WB Latin America & Caribbean,CUW
+WB Latin America & Caribbean,CYM
+WB Latin America & Caribbean,DMA
+WB Latin America & Caribbean,DOM
+WB Latin America & Caribbean,ECU
+WB Latin America & Caribbean,FLK
+WB Latin America & Caribbean,GRD
+WB Latin America & Caribbean,GTM
+WB Latin America & Caribbean,GUY
+WB Latin America & Caribbean,HND
+WB Latin America & Caribbean,HTI
+WB Latin America & Caribbean,JAM
+WB Latin America & Caribbean,KNA
+WB Latin America & Caribbean,LCA
+WB Latin America & Caribbean,MAF
+WB Latin America & Caribbean,MEX
+WB Latin America & Caribbean,MSR
+WB Latin America & Caribbean,NIC
+WB Latin America & Caribbean,PAN
+WB Latin America & Caribbean,PER
+WB Latin America & Caribbean,PRI
+WB Latin America & Caribbean,PRY
+WB Latin America & Caribbean,SLV
+WB Latin America & Caribbean,SUR
+WB Latin America & Caribbean,SXM
+WB Latin America & Caribbean,TCA
+WB Latin America & Caribbean,TTO
+WB Latin America & Caribbean,URY
+WB Latin America & Caribbean,VCT
+WB Latin America & Caribbean,VEN
+WB Latin America & Caribbean,VGB
+WB Latin America & Caribbean,VIR
+WB Middle East & North Africa,ARE
+WB Middle East & North Africa,BHR
+WB Middle East & North Africa,DJI
+WB Middle East & North Africa,DZA
+WB Middle East & North Africa,EGY
+WB Middle East & North Africa,IRN
+WB Middle East & North Africa,IRQ
+WB Middle East & North Africa,ISR
+WB Middle East & North Africa,JOR
+WB Middle East & North Africa,KWT
+WB Middle East & North Africa,LBN
+WB Middle East & North Africa,LBY
+WB Middle East & North Africa,MAR
+WB Middle East & North Africa,MLT
+WB Middle East & North Africa,OMN
+WB Middle East & North Africa,PSE
+WB Middle East & North Africa,QAT
+WB Middle East & North Africa,ESH
+WB Middle East & North Africa,SAU
+WB Middle East & North Africa,SYR
+WB Middle East & North Africa,TUN
+WB Middle East & North Africa,YEM
+WB North America,BMU
+WB North America,CAN
+WB North America,SPM
+WB North America,USA
+WB South Asia,AFG
+WB South Asia,BGD
+WB South Asia,BTN
+WB South Asia,IND
+WB South Asia,-99
+WB South Asia,LKA
+WB South Asia,MDV
+WB South Asia,NPL
+WB South Asia,PAK
+WB Sub-Saharan Africa,AGO
+WB Sub-Saharan Africa,ATF
+WB Sub-Saharan Africa,BDI
+WB Sub-Saharan Africa,BEN
+WB Sub-Saharan Africa,BFA
+WB Sub-Saharan Africa,BWA
+WB Sub-Saharan Africa,CAF
+WB Sub-Saharan Africa,CIV
+WB Sub-Saharan Africa,CMR
+WB Sub-Saharan Africa,COD
+WB Sub-Saharan Africa,COG
+WB Sub-Saharan Africa,COM
+WB Sub-Saharan Africa,CPV
+WB Sub-Saharan Africa,ERI
+WB Sub-Saharan Africa,ETH
+WB Sub-Saharan Africa,GAB
+WB Sub-Saharan Africa,GHA
+WB Sub-Saharan Africa,GIN
+WB Sub-Saharan Africa,GMB
+WB Sub-Saharan Africa,GNB
+WB Sub-Saharan Africa,GNQ
+WB Sub-Saharan Africa,HMD
+WB Sub-Saharan Africa,IOT
+WB Sub-Saharan Africa,KEN
+WB Sub-Saharan Africa,LBR
+WB Sub-Saharan Africa,LSO
+WB Sub-Saharan Africa,MDG
+WB Sub-Saharan Africa,MLI
+WB Sub-Saharan Africa,MOZ
+WB Sub-Saharan Africa,MRT
+WB Sub-Saharan Africa,MUS
+WB Sub-Saharan Africa,MWI
+WB Sub-Saharan Africa,NAM
+WB Sub-Saharan Africa,NER
+WB Sub-Saharan Africa,NGA
+WB Sub-Saharan Africa,RWA
+WB Sub-Saharan Africa,SDN
+WB Sub-Saharan Africa,SSD
+WB Sub-Saharan Africa,SEN
+WB Sub-Saharan Africa,SHN
+WB Sub-Saharan Africa,SLE
+WB Sub-Saharan Africa,-99
+WB Sub-Saharan Africa,SOM
+WB Sub-Saharan Africa,STP
+WB Sub-Saharan Africa,SWZ
+WB Sub-Saharan Africa,SYC
+WB Sub-Saharan Africa,TCD
+WB Sub-Saharan Africa,TGO
+WB Sub-Saharan Africa,TZA
+WB Sub-Saharan Africa,UGA
+WB Sub-Saharan Africa,ZAF
+WB Sub-Saharan Africa,ZMB
+WB Sub-Saharan Africa,ZWE

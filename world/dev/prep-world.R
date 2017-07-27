@@ -4,50 +4,66 @@ library(tidyverse)
 library(ggplot2)
 
 
-w <-  topojson_read("world-countries.topojson")
-w <- geojson_read("world.geojson")
 
-w$type
-w$features[[1]]$geometry$type
-wd <- w@data
-w@polygons[[1]]
+# 3.
 
-
-tj <- topojson_read("ne_50m_admin_0_countries.topojson")
-tj@data <- tj@data %>% mutate(code = iso_a3) %>% select(code, name, name_long)
-length(tj@polygons)
-tj@polygons <- map2(tj@polygons,dCode$code, function(x,y){
-  x@ID <- as.character(y)
-  x@id <- as.character(y)
-  #str(x)
-  x
-})
-
-tj@polygons[[1]]
-tj@bbox
-tj@polygons[[1]]@Polygons
-tj@polygons[[1]]
-
-geojson_write(tj, file = "ne_50m_admin_0_countries.geojson")
+# ## Read topojson in R, extract CSV data add code property and remove metadata from geojson.
+#
+# tj <- topojson_read("original/ne_50m_admin_0_countries.topojson")
+# d <- tj@data
+# tj@data <- tj@data %>% mutate(code = iso_a3) %>% select(code, name, name_long)
+# geojson_write(tj, file = "original/ne_50m_admin_0_countries.min.geojson")
+# # transform geojson again to topojson using mapshaper
+# #archivo.min.json
+# # Add ids manually
 
 
+tj <- topojson_read("original/ne_50m_admin_0_countries.topojson")
 
-dtj <- fortify(tj) %>% mutate(id = as.numeric(id)+1)
-str(dtj)
+d_altnames <- d %>% mutate(code = iso_a3) %>%
+  select(code,sovereignt,type, geounit,subunit,name,name_long,brk_name,abbrev,
+         formal_en,formal_fr, name_sort, name_alt, iso_a2, iso_a3) %>%
+  filter(code != "-99")
+z <- d_altnames %>%
+  gather(var, altname, -code) %>%
+  arrange(code)
+z <- z %>%
+  filter(!var %in% c("sovereignt","type"), altname != "") %>%
+  select(-var, id = code, altname) %>% distinct()
+write_csv(z, "clean/world-countries-altnames.csv")
 
-data <- tj@data %>% mutate(code = iso_a3)
+d_regions <- d %>% mutate(code = iso_a3) %>%
+  select(code, continent, region_un, subregion, region_wb)
+d_reg_continents <- d_regions %>%
+  select(region = continent, code) %>%
+  arrange(region)
+d_reg_un <- d_regions %>%
+  select(region = region_un, code) %>%
+  mutate(region = paste("UN", region)) %>%
+  arrange(region)
+d_reg_un_sub <- d_regions %>%
+  select(region = subregion, code) %>%
+  mutate(region = paste("UN Subregion", region)) %>%
+  arrange(region)
+d_reg_wb <- d_regions %>%
+  select(region = region_wb, code) %>%
+  mutate(region = paste("WB", region)) %>%
+  arrange(region)
+d_regs <- bind_rows(d_reg_continents,d_reg_un,d_reg_un_sub,d_reg_wb)
+write_csv(d_regs, "clean/world-countries-regions.csv")
 
-x <- data %>% select(code, name, name_long)
+d_codes <- d %>% select(id = code) %>% mutate(.id = 1:nrow(.))
+d_polygons <- fortify(tj) %>% mutate(.id = as.numeric(id)+1) %>% select(-id)
+d_polygons <- left_join(d_polygons, d_codes) %>% select(-.id)
+write_csv(d_polygons, "clean/world-countries-polygons.csv")
 
-length(unique(data$iso_a2))
-length(unique(data$sovereignt))
+dLatLon <- d_polygons %>% filter(id != "-99") %>%
+  group_by(id) %>% summarise(lat = mean(lat), lon = mean(long))
 
-dCode <- data %>% select(code, name = sovereignt) %>% mutate(id = 1:nrow(.))
-str(dCode)
-dCode <- dCode %>% mop::fct_to_chr()
-d <- left_join(dtj, dCode) %>% mutate(id = code) %>% select(-code)
+dinfo <- d %>% select(id = code, name, name_long)
+dinfo <- left_join(dinfo, dLatLon)
 
-write_csv(d, "clean/world-countries-polygons.csv")
+write_csv(dinfo, "clean/world-countries.csv")
 
-dLatLon <- d %>% group_by(id) %>% summarise(lat = mean(lat), lon = mean(long))
+
 
