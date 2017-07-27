@@ -1,20 +1,8 @@
 
-World topojson is missing
-Bahrain
-Malta
-Barbados
-Mauritius
-Antigua and Barbuda
-Palestine
-Cape verde
-Seychelles
-Singapur
-Kosovo
+# World topojson
 
+Shapefile from
+http://www.naturalearthdata.com/downloads/110m-cultural-vectors/
 
-granada
-san cristobal y nieves
-san vicente y las granadinas
-dominica
-
-
+Export using http://mapshaper.org to topojson and CSV
+Process in dev using R to generate regions and alternative names.
