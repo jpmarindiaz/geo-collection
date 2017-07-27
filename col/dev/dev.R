@@ -20,3 +20,13 @@ y <- x %>% mutate(alternativeNames = strsplit(alternativeNames, "|", fixed = TRU
   unnest(alternativeNames)
 write_csv(y, "clean/col-adm2-municipalities-altnames.csv")
 
+
+# prepare municipio regions
+
+x <- yaml::yaml.load_file(system.file("dmaps/col.yaml",package = "dmaps"))$col_municipalities
+reg <- x$regions
+
+rl <- reg %>% map(function(x) data_frame(id = x$id)) %>% bind_rows(,.id = "region")
+write_csv(rl, "col-adm2-municipalities-regions.csv")
+
+
